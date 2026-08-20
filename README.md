@@ -82,7 +82,7 @@ The system generates:
 - Illegal U-turn detection
 - Speed violation detection
 - Real-time CCTV monitoring
-- Automated traffic monitoring dashboard## Project Files
+- Automated traffic monitoring dashboard 
 
 ## Platform
 
