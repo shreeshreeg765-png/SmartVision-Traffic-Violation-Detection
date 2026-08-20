@@ -49,7 +49,7 @@ Evidence Generation
 CSV Report
       ↓
 Final Output Video
-```Text
+```
 ## Results
 
 The system detected:
