@@ -82,7 +82,7 @@ The system generates:
 - Illegal U-turn detection
 - Speed violation detection
 - Real-time CCTV monitoring
-- Automated traffic monitoring dashboard
+- Automated traffic monitoring dashboard## Project Files
 
 ## Platform
 
@@ -93,6 +93,3 @@ Developed using **Google Colab** with GPU-accelerated AI processing.
 SmartVision demonstrates how computer vision, object detection, and object tracking can be combined to automate traffic violation monitoring and generate digital evidence for detected violations.
 Developed using Google Colab with GPU-accelerated AI processing.
 
-Project Summary
-
-SmartVision demonstrates how computer vision, object detection, and object tracking can be combined to automate traffic violation monitoring and generate digital evidence for detected violations.
