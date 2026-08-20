@@ -4,7 +4,7 @@
 
 SmartVision is an AI-based traffic violation detection system that analyzes traffic video footage using computer vision and deep learning.
 
-The system detects vehicles, tracks them using ByteTrack, monitors a virtual stop line, and identifies potential red-light violations.
+The system detects and tracks vehicles, monitors a virtual stop line, detects the traffic-light state, and identifies potential red-light violations. When a violation is detected, the system generates visual evidence and records the violation details in a CSV report.
 
 ## Features
 
@@ -14,8 +14,9 @@ The system detects vehicles, tracks them using ByteTrack, monitors a virtual sto
 - Virtual stop-line monitoring
 - Automatic traffic violation detection
 - Evidence image generation
-- CSV violation report
+- CSV violation report generation
 - Processed output video
+- Visual violation alerts
 
 ## Technologies Used
 
@@ -30,48 +31,21 @@ The system detects vehicles, tracks them using ByteTrack, monitors a virtual sto
 
 ## System Workflow
 
-Traffic Video  
-↓  
-YOLO Vehicle Detection  
-↓  
-ByteTrack Vehicle Tracking  
-↓  
-Traffic Light Detection  
-↓  
-Virtual Stop Line Monitoring  
-↓  
-Violation Detection  
-↓  
-Evidence Generation  
-↓  
-CSV Report  
-↓  
+```text
+Traffic Video
+      ↓
+YOLO Vehicle Detection
+      ↓
+ByteTrack Vehicle Tracking
+      ↓
+Traffic Light Detection
+      ↓
+Virtual Stop Line Monitoring
+      ↓
+Violation Detection
+      ↓
+Evidence Generation
+      ↓
+CSV Report
+      ↓
 Final Output Video
-
-## Results
-
-The system detected:
-
-- Total Violations: 10
-- Evidence Images: 10
-- Final Video Size: 5.67 MB
-
-## Project Outputs
-
-The system generates:
-
-- Final processed traffic video
-- Violation evidence images
-- CSV violation report
-
-## Future Scope
-
-- License plate recognition
-- Lane violation detection
-- Illegal U-turn detection
-- Speed violation detection
-- Real-time CCTV monitoring
-
-## Platform
-
-Developed using Google Colab with GPU-accelerated AI processing.
