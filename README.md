@@ -54,31 +54,43 @@ Final Output Video
 
 The system detected:
 
-Total Violations: 11
-Evidence Images: 11
-Final Video Size: 5.67 MB
-Project Outputs
+- **Total Violations: 11**
+- **Evidence Images: 11**
+- **Final Video Size: 5.67 MB**
+
+## Project Outputs
 
 The system generates:
 
-Final processed traffic video
-Violation evidence images
-CSV violation report
-Project Files
-File	Description
-Ai_Based_Traffic_Violation_Detection (2).ipynb	Complete project notebook
-SmartVision_Traffic_Violation_Final.mp4	Final processed output video
-violation_report (1).csv	Violation detection report
-violation_*.jpg	Evidence images of detected violations
-Future Scope
-License plate recognition
-Lane violation detection
-Illegal U-turn detection
-Speed violation detection
-Real-time CCTV monitoring
-Automated traffic monitoring dashboard
-Platform
+- Final processed traffic video
+- Violation evidence images
+- CSV violation report
 
+## Project Files
+
+| File | Description |
+|------|-------------|
+| `Ai_Based_Traffic_Violation_Detection (2).ipynb` | Complete project notebook |
+| `SmartVision_Traffic_Violation_Final.mp4` | Final processed output video |
+| `violation_report (1).csv` | Violation detection report |
+| `violation_*.jpg` | Evidence images of detected violations |
+
+## Future Scope
+
+- License plate recognition
+- Lane violation detection
+- Illegal U-turn detection
+- Speed violation detection
+- Real-time CCTV monitoring
+- Automated traffic monitoring dashboard
+
+## Platform
+
+Developed using **Google Colab** with GPU-accelerated AI processing.
+
+## Project Summary
+
+SmartVision demonstrates how computer vision, object detection, and object tracking can be combined to automate traffic violation monitoring and generate digital evidence for detected violations.
 Developed using Google Colab with GPU-accelerated AI processing.
 
 Project Summary
